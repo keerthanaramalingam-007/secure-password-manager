@@ -1,32 +1,32 @@
-# 🔐 Secure Password Manager
+ Secure Password Manager
 
 A local password manager developed using Python that securely stores user credentials in an encrypted JSON vault.
 
-## 📌 Project Overview
+Project Overview
 
 The Secure Password Manager is a local desktop application designed to safely store and manage passwords and account credentials.
 
 The application uses a master password to protect the vault and encrypts the stored credentials before writing them to disk.
 
 
-## ✨ Features
+ Features
 
-* 🔐 Master password authentication
-* 🔒 Encrypted local credential storage
-* 🔑 Scrypt-based key derivation
-* 🛡️ Fernet authenticated encryption
-* ➕ Add credentials
-* ✏️ Edit credentials
-* 👁️ Show/hide passwords
-* 🔎 Search credentials
-* 🗑️ Delete credentials
-* 🎲 Secure password generator
-* 📊 Password strength indicator
-* 📋 Secure clipboard handling
-* ⏱️ Automatic vault locking
-* 🔒 Manual vault locking
-* 💾 Local encrypted JSON storage
-* 🌐 No cloud storage or external API required
+ Master password authentication
+ Encrypted local credential storage
+ Scrypt-based key derivation
+ Fernet authenticated encryption
+ Add credentials
+ Edit credentials
+ Show/hide passwords
+ Search credentials
+ Delete credentials
+ Secure password generator
+ Password strength indicator
+ Secure clipboard handling
+ Automatic vault locking
+ Manual vault locking
+ Local encrypted JSON storage
+ No cloud storage or external API required
 
 
 * Secure master password authentication
@@ -40,7 +40,7 @@ The application uses a master password to protect the vault and encrypts the sto
 * Lock and unlock functionality
 * No cloud storage or external API required
 
-## 🛠️ Technologies Used
+ Technologies Used
 
 * Python
 * Tkinter
@@ -49,7 +49,7 @@ The application uses a master password to protect the vault and encrypts the sto
 * Scrypt Key Derivation Function
 * JSON
 
-## 🔐 Security
+Security
 
 The application does not store the master password directly.
 
@@ -67,7 +67,7 @@ Fernet Encryption
 ↓
 Encrypted JSON Vault
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Password_Manager/
@@ -85,7 +85,7 @@ Password_Manager/
     └── vault.json
 ```
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone or download the project
 
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 🚀 How to Use
+##  How to Use
 
 ### First-time setup
 
@@ -136,7 +136,7 @@ Select an account and click **Delete**.
 
 Click **Lock** to return to the master-password screen.
 
-## 🧪 Testing
+## Testing
 
 The following functions were tested:
 
@@ -151,7 +151,7 @@ The following functions were tested:
 * Vault reopening
 * Encrypted local storage
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Edit existing credentials
 * Password strength meter
@@ -162,11 +162,11 @@ The following functions were tested:
 * Two-factor authentication
 * More advanced password-generation options
 
-## 👨‍💻 Project Type
+##  Project Type
 
 Cybersecurity / Python Desktop Application
 
-## 📄 License
+##  License
 
 This project was created for educational and internship purposes.
 
